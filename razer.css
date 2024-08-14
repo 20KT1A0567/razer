@@ -1,0 +1,189 @@
+
+    body {
+        margin: 0px;
+        width: 0px;
+        box-sizing: border-box;
+    }
+    *{
+        margin: 0px;
+    }
+
+    .parent {
+        border: 1px black black;
+        height: 100vh;
+        width: 100vw;
+    }
+    .div1{
+        height: 50px;
+        width: 100vw;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: black;
+        color: white;
+        padding-top: 40px;
+        font-size: larger;
+        
+      
+    }
+    .div2{
+        background: url(https://assets2.razerzone.com/images/pnx.assets/c304ae0bde28f4308e77e09debc687e0/left-handed-naga-hero-mobile.webp);
+        height: 700px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .div21{
+        height: 50px;
+        background-color: gray;
+        border: 3px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+      border-right: none;
+      border-left: none;
+      border-bottom: none;
+    }
+    .div3{
+        background: url(https://assets2.razerzone.com/images/pnx.assets/19139469bcc62860c37806cc9355cdf1/razer-huntsman-v3-pro-line-homepage-desktop2x.webp);
+        height: 600px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        padding-top: 40px; 
+    }
+    .div4{
+        background: url(https://assets2.razerzone.com/images/pnx.assets/9d0a8ebf8b1a2e39e745cdefefe9b83d/razer-blade-18-2024-homepage-desktop2x.webp);
+        height: 600px;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;  
+        padding-top: 40px;
+    }
+    .div41{
+     display: flex;
+     padding-left: 710px;
+
+    }
+    .div5{
+        display: flex;
+        height: 1900px;
+        width: 100vw;
+        flex-wrap: wrap;
+        row-gap: 5px;
+        background-color: gray;
+    }
+    .div51{
+        display: flex;
+       column-gap: 5px;
+       row-gap: 5px;
+       background-color: gray;
+        
+    }
+  .div511{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/8a099afe70ec277e1fe9cc64f5f2744e/back-to-school-2024-hero-mobile-v2.webp);
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 250px;
+    padding-top: 20px;
+
+
+  }
+  .div512{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/28f82961cbd74143180218b506df313a/razer-xanthus-b-950x580-desktop.webp);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+
+   
+  }
+  .div52{
+        display: flex;
+        row-gap: 5px;
+        column-gap: 5px;
+        background-color: gray;
+    }
+  .div521{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/28f82961cbd74143180218b506df313a/razer-kitsune-akuma-950x580-desktop.webp);
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 250px;
+    padding-top: 20px;
+
+  }
+  .div522{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/28f82961cbd74143180218b506df313a/razer-and-hello-kitty-and-friends-collab-b-950x580-desktop.webp);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+
+   
+  }
+  .div5211{
+    display: flex ;
+  }
+  .div5221{
+    display: flex;
+  }
+  .div53{
+        display: flex;
+        column-gap: 5px;
+        row-gap: 5px;
+        background-color: gray;
+    }
+  .div531{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/28f82961cbd74143180218b506df313a/chair-q3-campaign-b-950x580-desktop.webp);
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 250px;
+    padding-top: 20px;
+
+  }
+  .div532{
+    background: url(https://assets2.razerzone.com/images/pnx.assets/2ef5b37da7be946a487d825118880d3c/esports-campaign-2024-b-950x580-desktop.webp);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-left: 100px;
+    padding-top: 20px;
+  }
+  .div5311{
+    display: flex;
+  }
+  .div6{
+    
+        display: grid;
+        height: 400px;
+        width: 1553.5px;
+        border: 1px solid black;
+        grid-template-columns: 15% 10% 15% 15% 15% 20%;
+        grid-template-rows: 70% 10% 20%;
+        justify-content: center;
+        background-color: black;
+        color: white;
+        padding-top: 50px;
+  }
+  .p{
+    opacity: 0.6;
+  }
